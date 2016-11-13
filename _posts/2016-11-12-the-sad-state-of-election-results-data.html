@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'The Sad State Of Election Results Data'
+source: http://2016-election.adopta.agency//2016/11/12/the-sad-state-of-election-results-data/
+domain: 2016-election.adopta.agency
+image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-sad-face.png
+atomdate: 2016-11-12T22:20:38-08:00
+---
+<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-sad-face.png" alt="" width="40%" align="right" /></p>
+<p><a href="http://2016-election.adopta.agency/">I went through all 50 states election websites today</a>, trying to gather the election results for the general election. I see a lot of data, datasets, schema, and APIs, many are meant to be interoperable, and act in a federated manner. Our election data is some of the worse I've seen, with almost zero common patterns present, in naming, and structure.&nbsp;</p>
+<p>I get that it is 50 separate states trying to make this happen, with 50 separate models for handling their election, but it seems like there could at least be a common spreadsheet and schema that could be shared. Google has helped to push this notion forward with the <a href="https://developers.google.com/civic-information/">Google Civic API</a>, but I'd prefer it to be an open standard that is used by each state.&nbsp;</p>
+<p>A common data schema, API definition, and an assortment of server-side deployments in PHP, Python, Ruby, Java, and C# that states could download and use would go a long way. It would also take some evangelism, and the development of some simple user interfaces that they could deploy to make it all work. I'm guessing it would take an election cycle or two to make it stick across all 50 states&nbsp;but is something that go a long way to grease the election results sharing.</p>
+<p>I learned a lot doing this work today. Which is why I do this, as it expands the available data, as well as my understanding. Who knows, maybe I'll get some more time to build a prototype in the future, and pull together the JSON Schema, and OpenAPI definition, planting the seeds for others to build on.&nbsp;</p>
