@@ -49,6 +49,14 @@ title: 2016 Presidential Election Results
 <p>Here are the results I have currently for the 2016 Presidential General&nbsp;Election in <a href="http://2016-election.adopta.agency/data/2016-November-General-Election-Turnout-Rates.xlsx">Excel</a>, <a href="http://2016-election.adopta.agency/data/2016-November-General-Election-Turnout-Rates.csv">CSV</a>, <a href="http://2016-election.adopta.agency/data/2016-November-General-Election-Turnout-Rates.json">JSON</a>, and <a href="https://raw.githubusercontent.com/adopta-agency/2016-presidential-election-results/gh-pages/_data/results.yaml">YAML</a> formats. I'm using the YAML to drive the results below.</p>
 
 <table width="100%">
+  <tr>
+    <td align="right" width="25%" style="padding: 10px;"><strong>State</strong></td>
+    <td><strong>Hilliary Clinton</strong></td>
+    <td><strong>Donald Trump</strong></td>
+    <td><strong>Gary Johnson</strong></td>
+    <td><strong>Jill Stein</strong></td>
+    <td><a href="{{ results.state_results_website }}">source</a></td>
+  </tr>
 {% for results in site.data.results %}
 <tr>
   <td align="right" width="25%" style="padding: 10px;"><strong>{{ results.state }}:</strong></td>
